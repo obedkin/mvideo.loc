@@ -1,0 +1,40 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.product-item {
+  font-size: 14px;
+}
+.product-item a:hover {
+  color: #e31235;
+}
+.product-item a.btn:hover {
+  color: white;
+}
+.product-item .price {
+  font-size: 2rem;
+}
+.product-item .old-price:before {
+  content: "";
+  width: 30px;
+  height: 15px;
+  border-bottom: 2.5px solid #12a2bf;
+  -webkit-transform: translateY(15px) translateX(0px) rotate(-5deg);
+  position: absolute;
+  /* top: -20px; */
+}
+.product-item .star {
+  font-weight: bold;
+  color: #e31235;
+}
+.product-item .reviews {
+  padding-left: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
