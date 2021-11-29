@@ -8,7 +8,7 @@ include 'php/products.php';
 <div class="container">
     <div class="row">
         <div class="col-12 mb-3">
-            <img class="img-fluid w-100 d-none d-sm-block" src="img/pc/REM_BANNER_04_MEN_1228x340.jpg">
+            <img class="img-fluid w-100 d-none d-sm-block pt-5" src="img/pc/REM_BANNER_04_MEN_1228x340.jpg">
             <img class="img-fluid w-100 d-block d-sm-none pt-3" src="img/mobile/REM_BANNER_MOB_04_320x208.jpg">
         </div>
     </div>
