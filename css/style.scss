@@ -1,4 +1,5 @@
 $red: #e31235;
+$grey: #8e8e93;
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
@@ -7,7 +8,12 @@ body {
 a {
   text-decoration: none;
   color: black;
+
+  &:hover {
+    color: $red;
+  }
 }
+
 
 .product-item {
   font-size: 14px;
@@ -24,9 +30,16 @@ a {
     font-size: 2rem;
   }
 
+  .title {
+
+    height: 83px;
+
+    padding-top: 10px;
+  }
+
   .old-price:before {
     content: "";
-    width: 30px;
+    width: 35px;
     height: 15px;
     border-bottom: 2.5px solid #12a2bf;
     -webkit-transform: translateY(15px) translateX(0px) rotate(-5deg);
@@ -41,6 +54,27 @@ a {
 
   .reviews {
     padding-left: 10px;
+    color: $grey;
   }
 
+  .bonus {
+    color: $red;
+    padding: 5px 10px;
+  }
+
+  .bonus-text {
+    color: $grey;
+  }
+
+  .bonus-block {
+    padding-bottom: 10px;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .col-lg-five {
+    width: 20%;
+    float: left;
+  }
 }
