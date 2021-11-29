@@ -21,7 +21,7 @@ include 'php/products.php';
                 href="https://www.mvideo.ru/product-list-page?q=remington&category=mashinki-dlya-strizhki-volos-143"
                 class="fw-bold">Все машинки для стрижки Remington</a></p>
     <div class="row pt-5">
-        <div class="col-12 mb-5">
+        <div class="col-12 mb-3">
             <img class="img-fluid w-100 d-none d-sm-block" src="img/pc/REM_BANNER_05_MEN_1228x340.jpg">
             <img class="img-fluid w-100 d-block d-sm-none" src="img/mobile/REM_BANNER_MOB_05_320x208.jpg">
         </div>

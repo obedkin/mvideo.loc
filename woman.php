@@ -7,27 +7,27 @@ include 'php/products.php';
 <body>
 <div class="container">
     <div class="row">
-        <div class="col-12 mb-3">
-            <img class="img-fluid w-100 d-none d-sm-block pt-5" src="img/pc/REM_BANNER_06_GIRL_1228x340.jpg">
-            <img class="img-fluid w-100 d-block d-sm-none pt-3" src="img/mobile/REM_BANNER_MOB_06_320x208.jpg">
+        <div class="col-12 mb-1">
+            <img class="img-fluid w-100 d-none d-sm-block" src="img/pc/REM_BANNER_06_GIRL_1228x340.jpg">
+            <img class="img-fluid w-100 d-block d-sm-none" src="img/mobile/REM_BANNER_MOB_06_320x208.jpg">
         </div>
     </div>
-    <div class="row pt-5">
+    <div class="row pt-1">
         <?php for ($index = 15; $index < 24; $index++) : ?>
             <?php include 'php/product.php'; ?>
         <?php endfor; ?>
     </div>
-    <p class="pt-3"><a
+    <p class="pt-1"><a
                 href="https://www.mvideo.ru/product-list-page?q=remington&category=feny-i-fen-shhetki-4889"
                 class="fw-bold">Все фены и фен-щетки Remington</a></p>
-    <div class="row pt-5">
-        <div class="col-12 mb-5">
+    <div class="row pt-3">
+        <div class="col-12 mb-1">
             <img class="img-fluid w-100 d-none d-sm-block" src="img/pc/REM_BANNER_07_GIRL_1228x340.jpg">
             <img class="img-fluid w-100 d-block d-sm-none" src="img/mobile/REM_BANNER_MOB_07_320x208.jpg">
         </div>
     </div>
 
-    <div class="row pt-3">
+    <div class="row pt-1">
         <?php for ($index = 24; $index < 29; $index++) : ?>
             <?php include 'php/product.php'; ?>
         <?php endfor; ?>
@@ -36,7 +36,7 @@ include 'php/products.php';
                 href="https://www.mvideo.ru/product-list-page?q=remington&category=vypryamiteli-volos-4895"
                 class="fw-bold">Все выпрямители для волос Remington</a></p>
     <div class="row pt-5">
-        <div class="col-12 mb-5">
+        <div class="col-12 mb-1">
             <img class="img-fluid w-100 d-none d-sm-block" src="img/pc/REM_BANNER_08_GIRL_1228x340.jpg">
             <img class="img-fluid w-100 d-block d-sm-none" src="img/mobile/REM_BANNER_MOB_08_320x208.jpg">
         </div>

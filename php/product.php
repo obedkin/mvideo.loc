@@ -1,8 +1,8 @@
-<div class="col-lg-five col-6 product-item pt-5">
+<div class="col-lg-five col-6 product-item pb-3" id="<?= $products[$index][0] ?>">
     <div><a href="<?= $products[$index][2] ?>"><img class="img-fluid" src="<?= $products[$index][8] ?>"></a></div>
     <span class="price"><?= number_format($products[$index][3], 0, '', ' ') ?> ₽</span>
     <span class="old-price"><?= number_format($products[$index][4], 0, '', ' ') ?></span><br/>
-    <span class="star"><i class="fas fa-star"></i> 4.3</span><span
+    <span class="star"><i class="fas fa-star"></i> <?= $products[$index][9] ?></span><span
             class="reviews"><?= $products[$index][5] ?></span><br/>
     <div class="title"><a href="<?= $products[$index][2] ?>"><?= $products[$index][1] ?></a></div>
     <div class="bonus-block"><img class="d-none d-sm-inline" src="img/m.png"><span
