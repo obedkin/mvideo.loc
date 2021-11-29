@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="ru">
 <?php
-include 'php/head.php';
+ include 'php/head.php';
 ?>
 <body>
 <div class="container">
