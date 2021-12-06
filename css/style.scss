@@ -1,7 +1,7 @@
 $red: #e31235;
 $grey: #8e8e93;
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
   font-size: 24px;
 }
 
@@ -30,6 +30,20 @@ a {
 
   a.btn:hover {
     color: white;
+  }
+
+  a.btn {
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding: 9px 24px 9px 24px;
+    height: 40px;
+    border-radius: 4px;
   }
 
   .price {

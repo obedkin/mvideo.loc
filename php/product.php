@@ -11,5 +11,5 @@
     <div class="bonus-block"><img class="d-none d-sm-inline" src="img/m.png"><span
                 class="bonus">+<?= $products[$index][6] ?></span><span
                 class="bonus-text"><?= $products[$index][7] ?></span></div>
-    <a href="<?= $products[$index][2] ?>" class="btn btn-danger"><i class="fas fa-shopping-cart"></i> Купить</a>
+    <a href="<?= $products[$index][2] ?>" class="btn btn-danger">Купить</a>
 </div>
