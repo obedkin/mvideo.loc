@@ -27,7 +27,9 @@
                 <img class="img-fluid w-100 d-block d-sm-none"
                      src="img/mobile/REM_BANNER_MOB_02_320x208.jpg">
             </a>
-            <p class="text-center pt-3"><a href="man.php" class="fw-bold d-none d-sm-block">Для него</a></p>
+            <p class="text-center pt-3 pb-3">
+                <a href="man.php" class="btn btn-danger">Купить</a>
+            </p>
         </div>
         <div class="col-lg-6">
             <a href="woman.php"><img class="img-fluid w-100 d-none d-sm-block ps-3"
@@ -36,7 +38,8 @@
             <a href="woman.php"><img class="img-fluid w-100  d-block d-sm-none"
                                      src="img/mobile/REM_BANNER_MOB_03_320x208.jpg">
             </a>
-            <p class="text-center pt-3"><a href="woman.php" class="text-center fw-bold d-none d-sm-block">Для неё</a>
+            <p class="text-center pt-3">
+                <a href="woman.php" class="btn btn-danger">Купить</a>
             </p>
         </div>
 
